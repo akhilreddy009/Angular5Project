@@ -1,8 +1,8 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-import { PagesRoutingModule } from './pages-routing.module';
+import { NgModule } from '@angular/core';
 import { HomeComponent } from './home/home.component';
+import { PagesRoutingModule } from './pages-routing.module';
+
 
 @NgModule({
   imports: [

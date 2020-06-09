@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
 import { appRouting } from './app.router';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { appRouting } from './app.router';
     HttpModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    appRouting
+    appRouting,
+    SharedModule
   ],
   providers: [
   ],
