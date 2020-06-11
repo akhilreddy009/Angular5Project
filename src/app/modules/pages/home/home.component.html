@@ -1,3 +1,8 @@
 <h1 style="text-align: center;">
   {{title}}
 </h1>
+<div>
+  <input type="text" [formControl]="myControl" auto-complete [options]="members" [isLoading]="isLoading" >
+  <app-auto-complete [options]="members" [isLoading]="isLoading" ></app-auto-complete>
+</div>
+

@@ -1,0 +1,10 @@
+<!-- *ngIf="showDropdown" -->
+<ng-container>
+  <ul class="auto-complete--dropdown">
+    <li *ngIf="isLoading">isLoading...</li>
+    <li *ngIf="!isLoading && (options && !options.length)">No Results Found</li>
+    <li *ngFor="let option of options">
+      {{option.name}}
+    </li>
+  </ul>
+</ng-container>
